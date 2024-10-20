@@ -1,4 +1,5 @@
 import AddNewInterview from './_components/AddNewInterview'; // Adjust the path if necessary
+import InterviewList from './_components/InterviewList'; // Adjust the path if necessary
 
 function Dashboard() {
 return (
@@ -9,6 +10,9 @@ return (
         <div className="grid grid-cols-1 md:grid-cols-3 my-5">
             <AddNewInterview/>
         </div>
+
+        {/* Previous Interview List */}
+        <InterviewList/>
     </div>
 )
 }
